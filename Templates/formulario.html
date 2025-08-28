@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Orçamento Porta de Guilhotina</title>
+</head>
+<body>
+  <h2>Formulário de Orçamento</h2>
+  <form action="http://127.0.0.1:5000/calcular" method="post">
+    <label>Orçamento:</label>
+    <input type="text" name="orcamento"><br><br>
+
+    <label>Nome do Cliente:</label>
+    <input type="text" name="cliente"><br><br>
+
+    <label>Tipo da Porta:</label>
+    <select name="porta">
+      <option>Simples</option>
+      <option>Em L Esquerda</option>
+      <option>Em L Direita</option>
+      <option>Em U</option>
+    </select><br><br>
+
+    <label>Altura Total (cm):</label>
+    <input type="text" name="altura"><br><br>
+
+    <label>Largura da Porta (cm):</label>
+    <input type="text" name="largura"><br><br>
+
+    <label>Profundidade Total (cm):</label>
+    <input type="text" name="profundidade"><br><br>
+
+    <label>Altura da Boca (cm):</label>
+    <input type="text" name="boca"><br><br>
+
+    <label>Entrada da placa no gesso (cm):</label>
+    <input type="text" name="gesso"><br><br>
+
+    <label>Pedra instalada:</label>
+    <select name="pedra">
+      <option>Não</option>
+      <option>Sim</option>
+    </select><br><br>
+
+    <label>Altura fixa do metalon inox 4x4 (cm):</label>
+    <input type="text" name="metalon"><br><br>
+
+    <label>Fechamento em Vidro:</label>
+    <select name="vidro">
+      <option>Não</option>
+      <option>Sim</option>
+    </select><br><br>
+
+    <button type="submit">Calcular</button>
+  </form>
+</body>
+</html>
